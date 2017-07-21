@@ -161,5 +161,23 @@ $(window).load(function(){
 
 // Skill set 
 
-
 }(jQuery));
+
+function div_hover(toggle){
+	let a = toggle.children[1]
+	$(a).css("display","block")
+	let b = $(a).attr("per")
+	console.log(a)
+	draw(a,b,40)
+}
+
+function draw(path,progress,r) {
+    path.setAttribute('transform', 'translate('+r+','+r+')');
+    var degrees = progress * (360/100);  
+    var rad = degrees* (Math.PI / 180);
+    var x = (Math.sin(rad) * r).toFixed(2);
+    var y = -(Math.cos(rad) * r).toFixed(2);
+    var lenghty = window.Number(degrees > 180);
+    var descriptions = ['M', 0, 0, 'v', -r, 'A', r, r, 0, lenghty, 1, x, y, 'z'];
+    path.setAttribute('d', descriptions.join(' '));
+}    

@@ -442,7 +442,9 @@ header{
 .aboutus .btn-primary:hover {
 	color:#979497;
 }
-
+.intro{
+	text-indent: 2em;
+}
 /*----------------------------------------------------
 	5. Skill & Expert Style
 ------------------------------------------------------*/
@@ -506,66 +508,19 @@ header{
 	color:#796f7a;
 	margin-left:-20px;
 }
-
-/*----------------------------------------------------
-	6. Work Experience Style
-------------------------------------------------------*/
-
-.myexperties {
-	background:#fff;
+.skillset p{
+	line-height: 30px;
 }
-.myexperties .container{
-	padding-top:67px ;
-	padding-bottom:0 ;
-	margin-bottom:-20px;
+.skill_logo{
+	margin-top: 25px;
 }
-.expertiesico {
-	padding:70px 63px 70px 0;
-	text-align:right;
-	font-family:'Crimson Text',serif;
-	font-size:21px;
-	line-height:24px;
-	color:#5b4c5c;
-	font-style:italic;
+.skill_percent{
+	display: none;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: rgba(111,111,111,0.5);
 }
-.expertiesdesc {
-	border-left:2px solid #ada5ad;
-	padding:0 0 0 69px;
-	margin-bottom:100px;
-}
-.expertiesdesc p {
-	padding-bottom:0;
-}
-.expertiesdesc h4 {
-	font-size:14px;
-	font-weight:300;
-	color:#UIzards;
-	line-height:normal;
-	text-transform:uppercase;
-	letter-spacing:2px;
-}
-.expertiesdesc h5 {
-	font-family: 'Crimson Text', serif;
-	color:#5b4c5c;
-	font-size:18px;
-	font-style:italic;
-	font-weight:400;
-}
-
-/*----------------------------------------------------
-	7. Education & Diplomas Style
-------------------------------------------------------*/
-
-.educationdiploma {
-	background:#f8f8f8;
-}
-.educationdiploma .container{
-	padding-top:65px ;
-	padding-bottom:0 ;
-	margin-bottom:-20px;
-}
-
-
 /*----------------------------------------------------
 	 8. Protfolio Style
 ------------------------------------------------------*/
@@ -1300,6 +1255,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.conForm .submitBnt {
 		width:100%;
 	}
+	.intro{
+		text-align: left;
+	}
 }
 
 
@@ -1363,6 +1321,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.bannerText p {
 		font-size:15px;
 		padding-bottom:20px;
+
 	}
 	
 }
@@ -1412,4 +1371,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		top:0px;
 		
 	}
+}
+.skill_icon{
+	height: 100px;
 }
