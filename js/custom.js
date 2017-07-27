@@ -183,7 +183,12 @@ function draw(path,progress,r) {
     path.setAttribute('d', descriptions.join(' '));
 }    
 
-$("#project_icon li").on("click",function(){
-		console.log('sssss')
-		$(this).css("transform","translate3d(0,0,0)").siblings('li').addClass('hide')
+// $("#project_icon li").on("click",function(){
+// 		console.log('sssss')
+// 		$(this).css("transform","translate3d(0,0,0)").siblings('li').addClass('hide')
+// })
+$(".projects_pic img").on("click",function(){
+	var src=$(this).attr("src");
+	$(this).addClass('pro_chosed').siblings('img').removeClass('pro_chosed');
+	$(this).parent().parent().parent().siblings('.modal-body')[0].children[0].src = src;
 })

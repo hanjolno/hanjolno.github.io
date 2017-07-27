@@ -800,7 +800,13 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 #pbCloseBtn{
 	position:absolute !important;
 }
-
+.projects_pic img{
+	padding: 5px;
+	margin: 0 10px;
+}
+.pro_chosed{
+	border: red solid 2px;
+}
 /*----------------------------------------------------
 	9. Contact Style
 ------------------------------------------------------*/

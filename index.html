@@ -166,27 +166,98 @@
             <div class="row">
                 <div class="portfolioFilter">
                     <ul>
-                        <li><a>全部</a></li>
                         <li><a>综合留言板</a></li>
                         <li><a>仿豆瓣APP</a></li>
                         <li><a>在线相册</a></li>
-                        <li><a>其他</a></li>
+                        <li><a>静态网页</a></li>
                     </ul>
                 </div>
                 <ul class="portfolioContainer row" id="project_icon">
-                    <li class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <li class="template col-xs-6 col-sm-4 col-md-3 col-lg-3" data-toggle="modal" data-target="#pro_mgs">
                         <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb1.jpg" alt=""> </div>
                     </li>
-                    <li class="template wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <li class="template wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3" data-toggle="modal" data-target="#pro_pic">
                         <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb2.jpg" alt=""> </div>
                     </li>
-                    <li class="wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <li class="wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3" data-toggle="modal" data-target="#pro_app">
                         <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb3.jpg" alt=""> </div>
                     </li>
                     <li class="webdesign wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb4.jpg" alt=""> </div>
                     </li>
                 </ul>
+                <div class="modal fade bs-example-modal-lg" id="pro_mgs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <div>
+                                    <div class="projects_pic">
+                                        <img src="images/projects/msg01.png" height="100px" class="pro_chosed">
+                                        <img src="images/projects/msg02.png" height="100px">
+                                        <img src="images/projects/msg03.png" height="100px">
+                                        <img src="images/projects/msg04.png" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/projects/msg01.png" height="500px">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <a href="https://github.com/hanjolno/messages" class="btn btn-primary">To GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bs-example-modal-lg" id="pro_pic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <div>
+                                    <div class="projects_pic">
+                                        <img src="images/projects/pic01.png" height="100px" class="pro_chosed">
+                                        <img src="images/projects/pic02.png" height="100px">
+                                        <img src="images/projects/pic03.png" height="100px">
+                                        <img src="images/projects/pic04.png" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/projects/pic01.png" height="500px">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <a href="https://github.com/hanjolno/photos" class="btn btn-primary">To GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bs-example-modal-lg" id="pro_app" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <div>
+                                    <div class="projects_pic">
+                                        <img src="images/projects/app01.png" height="100px" class="pro_chosed">
+                                        <img src="images/projects/app02.png" height="100px">
+                                        <img src="images/projects/app03.png" height="100px">
+                                        <img src="images/projects/app04.png" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/projects/app01.png" height="500px">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <a href="https://github.com/hanjolno/douban" class="btn btn-primary">To GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--portfolio end-->
@@ -198,25 +269,11 @@
         <section class="footer" id="footer">
             <div class="container">
                 <div class="heading">
-                    <h2>Drop a email</h2>
-                    <h3>Please feel free if you would like to have a chat.</h3>
+                    <h2>请联系我</h2>
+                    <h3>手机: 18260093008</h3>
+                    <h3>邮箱: 385082206@qq.com</h3>
                 </div>
-                <!--contact form start-->
-                <div class="row media">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 conForm text-center">
-                        <div id="message"></div>
-                        <form method="post" action="php/contact.php" name="cform" id="cform">
-                            <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your name">
-                            <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 noMarr" placeholder="Your email">
-                            <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-8 col-lg-8" placeholder="Your message"></textarea>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <input type="submit" id="submit" name="send" class="submitBnt" value="Send message">
-                            </div>
-                            <div id="simple-msg"></div>
-                        </form>
-                    </div>
-                </div>
-                <!--contact form end-->
+               
             </div>
         </section>
         <!--footer end-->
