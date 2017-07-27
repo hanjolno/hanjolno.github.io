@@ -168,14 +168,17 @@ h5{
 ------------------------------------------------------*/
 header{
 	position:relative;
+/* 	background: url(../images/head.png) no-repeat;
+	background-size: 100%;
+	background-position: 0; */
 }
 .banner{
 	overflow:hidden ;
 	margin:0 auto !important;
-	background:#CACACA;
+	/* background:#CACACA; */
 }
 .patternOverlay {
-	background:#372d38;
+	/* background:#372d38; */
 	position:absolute;
 	top:0;
 	right:0;
@@ -528,6 +531,7 @@ header{
 	background:#fff;
 	width:100%;
 	overflow:hidden;
+	padding-bottom: 20px;
 }
 .protfolio .container{
 	padding-top:67px ;
@@ -967,12 +971,18 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	 10. Footer Style
 ------------------------------------------------------*/
 .footer{
-	background:#f8f8f8;
+	background:#363636;
 }
 .footer .container{
 	padding:84px 0 0;
+	
 }
-
+.footer .heading h2{
+	color: #F6F6F6;
+}
+.footer .heading h3{
+	color: #F6F6F6;
+}
 .footer ul{
 	margin:0 auto;
 	margin-bottom:62px;
@@ -1000,7 +1010,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 
 .footer ul li a{
-	color:#fff;
+	color:#FFFFFF;
 	width:42px !important;
 	height:42px !important;
 }
